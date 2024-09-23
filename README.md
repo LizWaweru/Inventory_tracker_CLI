@@ -139,6 +139,7 @@ If you want to seed your database, now would be a great time to write out your
 Pipenv to install Faker to save you some time.
 
 ***
+## 
 
 ## Generating Your CLI
 
@@ -237,3 +238,42 @@ Happy coding!
 - [Setting up a respository - Atlassian](https://www.atlassian.com/git/tutorials/setting-up-a-repository)
 - [Create a repo- GitHub Docs](https://docs.github.com/en/get-started/quickstart/create-a-repo)
 - [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
+
+
+## menu(CRUD)
+
+1. 
+2. add stock/inventory
+
+3. Category menu
+3.0 add category
+3.10 Update category
+3.3 find category by id
+
+4. Transaction menu
+4.0 add transaction
+4.1 add transcation to Inventory
+4.2 remove transaction from inventory
+4.3 Get all transactions that belong to an inventory
+4.4 update transaction
+4.5 find transaction by id
+
+5. Supplier menu
+5.0 find supplier by id
+5.0 add supplier
+5.1 get all supplier/stock/category
+6.2 update supplier/stock/category
+6.3 delete supplier/stock/category
+
+6. Inventory menu
+6.1 add inventory
+3.1 add Inventory to category
+6.2 find inventory by id
+6.3 delete inventory
+6.4 update inventory
+6.4 remove Inventory from category
+6.2 get all inventory from certain category
+6.5 get all inventory (supplier/category)
+
+
+
