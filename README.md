@@ -1,69 +1,37 @@
-# Phase 3 CLI Project Template
+# Inventory Management CLI System
+The Inventory Management System is a comprehensive application designed to manage products, suppliers, categories, inventories, and transactions. This system is built using Python and SQLAlchemy, providing CRUD operations for users keep track of stock levels. It allows business manage supplier information, and monitor transaction histories, providing a robust solution for inventory management.
 
-## Learning Goals
+## Models and relationships
+The models represent real-world entities: Inventory, Category, Supplier and Transaction.
+Inventory-Transaction:One-to-many relationship. An inventory can have multiple transactions but 
+Category:
+Supplier: One-to-many;A supplier can supply many inventories
+Transaction:
 
-- Discuss the basic directory structure of a CLI.
-- Outline the first steps in building a CLI.
+## Features
+- Add, update, and delete categories and suppliers
+- Manage inventory items with detailed information
+- Track transactions (stock in/out) for inventory items
+- Search and filter functionalities for inventory and supplier records.
 
-***
+### Installation and set up
+- Ensure you have installed Python 3.7 or higher
 
-## Introduction
+- Clone the repository: 
 
-You now have a basic idea of what constitutes a CLI, but you (understandably!)
-likely don't have the best idea of where to start. Fork and clone this lesson
-for a template for your CLI. Take a look at the directory structure before we
-begin:
-
-```console
-.
-├── Pipfile
-├── Pipfile.lock
-├── README.md
-└── lib
-    ├── cli.py
-    ├── db
-    │   ├── models.py
-    │   └── seed.py
-    ├── debug.py
-    └── helpers.py
+```bash
+   git clone https://git@github.com:crea-tivecoder/Inventory_tracker_CLI.git
+   cd Inventory_tracker_CLI
 ```
+- Create a virtual environment
+ ```bash
+ python -m venv venv
+ ```
 
-> **Note: You may already know some or all of the material covered in this
-> lesson. We hope that having it all in one place will help you in designing
-> and developing your project, regardless of where you're starting off.**
-
-***
-
-## Where Do I Start?
-
-This project will likely be one of the biggest projects you've undertaken so
-far. Your first task should be creating a Git repository to keep track of your
-work and roll back any undesired changes.
-
-### Removing Existing Git Configuration
-
-If you're using this template, start off by removing the existing metadata for
-Github and Canvas. Run the following command to carry this out:
-
-```console
-$ rm -rf .git .github .canvas
+- Install the required packaged 
+```bash
+pip install sqlalchemy
 ```
-
-The `rm` command removes files from your computer's memory. The `-r` flag tells
-the console to remove _recursively_, which allows the command to remove
-directories and the files within them. `-f` removes them permanently.
-
-`.git` contains this directory's configuration to track changes and push to
-Github (you want to track and push _your own_ changes instead), and `.github`
-and `.canvas` contain the metadata to create a Canvas page from your Git repo.
-You don't have the permissions to edit our Canvas course, so it's not worth
-keeping them around.
-
-### Creating Your Own Git Repo
-
-First things first- rename this directory! Once you have an idea for a name,
-move one level up with `cd ..` and run `mv python-p3-cli-project-template
-<new-directory-name>` to change its name.
 
 > **Note: `mv` actually stands for "move", but your computer interprets this
 > rename as a move from a directory with the old name to a directory with
@@ -275,5 +243,5 @@ Happy coding!
 6.2 get all inventory from certain category
 6.5 get all inventory (supplier/category)
 
-
+![my message goes here](./Pictures/imageoverview.png)
 
