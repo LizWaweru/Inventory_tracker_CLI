@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Inventory Management CLI System
 The Inventory Management System is a comprehensive application designed to manage products, suppliers, categories, inventories, and transactions. This system is built using Python and SQLAlchemy, providing CRUD operations for users keep track of stock levels. It allows business manage supplier information, and monitor transaction histories, providing a robust solution for inventory management.
 
@@ -14,9 +13,6 @@ Transaction:
 - Manage inventory items with detailed information
 - Track transactions (stock in/out) for inventory items
 - Search and filter functionalities for inventory and supplier records.
-=======
-# Inventory Tracker Management System
->>>>>>> b058bd5b7fdc750d61acb13203de01aaf6c77641
 
 ### Installation and set up
 - Ensure you have installed Python 3.7 or higher
