@@ -75,34 +75,34 @@ user know the input message they would want to choose from.
 
 ### Usage menu
 
-Run `python cli.py` to run the application via the CLI
+Run `python cli.py` to run the application via the CLI.
 The main menu allows the user to:
 
 1.  Inventory menu
 
-    1.1 add inventory: Adds a new inventory item.
-    1.2 add Inventory to category: Associates an inventory with a category.
-    1.3 find inventory by id: Finds an inventory item by its ID.
-    1.4 update inventory: Modify the details of an existing inventory item
-    1.5 remove Inventory from category: Deletes an inventory from a category.
+    - add inventory: Adds a new inventory item.
+    - add Inventory to category: Associates an inventory with a category.
+    - find inventory by id: Finds an inventory item by its ID.
+    - update inventory: Modify the details of an existing inventory item
+    - remove Inventory from category: Deletes an inventory from a category.
 
 2.  Category menu
-    2.1 add category: Adds a new product category.
-    2.2 Update category: Modify a category's name or description
-    2.3 find category by id: Finds and displays a category by ID
-    2.4 Delete category: Removes a category from the system
+    - add category: Adds a new product category.
+    - Update category: Modify a category's name or description
+    -  find category by id: Finds and displays a category by ID
+    - Delete category: Removes a category from the system
 
 3.  Transaction menu
-    4.0 add transaction: Adds a new transaction (either stock-in or stock-out).
-    4.1 add transaction to Inventory: Associate a transaction with an inventory item.
-    4.2 remove transaction from inventory: Detach a transaction from an inventory item.
-    4.3 Get all transactions that belong to an inventory
-    4.4 update transaction: Modify transaction details.
-    4.5 find transaction by id: Retrieves transaction details by ID.
+    - add transaction: Adds a new transaction (either stock-in or stock-out).
+    - add transaction to Inventory: Associate a transaction with an inventory item.
+    - remove transaction from inventory: Detach a transaction from an inventory item.
+    - Get all transactions that belong to an inventory
+    - update transaction: Modify transaction details.
+    - find transaction by id: Retrieves transaction details by ID.
 
 4.  Supplier menu
-    5.0 find supplier by id: Retrieves a supplier's details using its ID.
-    5.0 add supplier: Registers a new supplier.
-    5.1 get all supplier/stock/category: Lists all suppliers.
-    6.2 update supplier/stock/category: Updates suppliers and quantity
-    6.3 delete supplier/stock/category: Deletes supplier
+    - find supplier by id: Retrieves a supplier's details using its ID.
+    - add supplier: Registers a new supplier.
+    - get all supplier/stock/category: Lists all suppliers.
+    - update supplier/stock/category: Updates suppliers and quantity
+    - delete supplier/stock/category: Deletes supplier
